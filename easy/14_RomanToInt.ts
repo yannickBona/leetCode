@@ -20,7 +20,7 @@ const symbols: Romans = {
   M: 1000,
 };
 
-const RomanToInt: RomanToIntType = (s) => {
+export const RomanToInt: RomanToIntType = (s) => {
   let result = 0;
   for (let i = 0; i < s.length; i++) {
     const currentValue = symbols[s[i] as keyof Romans];
@@ -35,4 +35,4 @@ const RomanToInt: RomanToIntType = (s) => {
   return result;
 };
 
-RomanToInt("IXI");
+RomanToInt("XXXM");

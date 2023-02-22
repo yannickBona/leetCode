@@ -1,4 +1,4 @@
-const twoSum = (nums: number[], target: number) => {
+export const twoSum = (nums: number[], target: number) => {
   const prevValues = {};
 
   for (let i = 0; i < nums.length; i++) {
