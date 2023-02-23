@@ -6,4 +6,4 @@ import { validParentheses } from "./20_ValidParentheses";
 // RomanToInt("XIX");
 // isPalindrome(1221);
 // LongestCommonPrefix(["ciao", "cinghiale", "sso", "ciafossetto"]);
-validParentheses("[()]{");
+validParentheses("{(({{}}))]");
