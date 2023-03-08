@@ -1,3 +1,3 @@
-# Some LeetCode challenges to keep my brain efficient & fast 😁
+# Some LeetCode challenges
 
 All of the problems are solved using node TS
